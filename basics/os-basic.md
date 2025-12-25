@@ -1,8 +1,6 @@
 # os-basic
 
 ## 컴퓨터 구조
-![os-structure](/images/os-structure.png)
-
 ```text
 [ Hardware ]
  ├─ CPU
@@ -11,7 +9,7 @@
  └─ I/O Devices
         ↑
 [ Operating System (Kernel) ]
-        ↑
+        ↑    ← (System Call)
 [ User Space Programs ]
         ↑
 [ User (Human) ]
@@ -65,6 +63,9 @@
 
 > OS 없으면 프로그램은 실행 자체가 불가능
 
+
+## OS의 핵심 구성요소
+![os-structure](/images/os-structure.png)
 
 
 
