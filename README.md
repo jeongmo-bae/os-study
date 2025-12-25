@@ -3,8 +3,7 @@
 ## Goal
 - **Backend / Data Engineer 로서 필요한 운영체제 기초 체력을 만든다**
     - OS의 핵심 개념을 이론 + 실습으로 이해한다
-    - macOS 환경에서 UNIX 계열 공통 개념을 먼저 익힌다
-    - Linux(Ubuntu)에서 실제 서버 환경(systemd, 서비스 관리 등) 을 경험한다
+    - Linux(Ubuntu)에서 실제 서버 환경(systemd, 어플리케이션 관리 등) 을 경험한다
 
 ## Plan
 - macOS 환경을 기반으로 시작(기초 개념 공부 및 실습)
