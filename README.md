@@ -3,7 +3,8 @@
 ## Goal
 - **Backend / Data Engineer 로서 필요한 운영체제 기초 체력을 만든다**
     - OS의 핵심 개념을 이론 + 실습으로 이해한다
-    - Linux(Ubuntu)에서 실제 서버 환경(systemd, 어플리케이션 관리 등) 을 경험한다
+    - Linux(Ubuntu)에서 실제 서버 환경(systemd, 서비 관리 등) 을 경험한다
+    - 내 어플리케이션을 직접 VM(Ubuntu)에 배포 및 운영해보며, 더 깊은 이해가 바탕된 실무 능력을 갖춘다
 
 ## Plan
 - macOS 환경을 기반으로 시작(기초 개념 공부 및 실습)
@@ -25,8 +26,8 @@ os-study/
 - [system](/system)
 
 ## Roadmap
-### Phase 1 — UNIX / OS 기본 개념 (macOS 기반)
-- 커널, 프로세스, 파일 시스템, 쉘 개념 중심
+### Phase 1 — UNIX / OS 기본 개념
+- 커널, 유저스페이스, 프로세스, 파일 시스템, 쉘 개념 중심
     - 프로세스 / 스레드
     - 파일 디스크립터
     - 권한 (user / group / permission)
