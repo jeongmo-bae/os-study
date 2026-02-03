@@ -1,20 +1,28 @@
 # os-basic
 
-## 컴퓨터 구조
+## os architecture
 ```text
-[ Hardware ]
- ├─ CPU
- ├─ Memory (RAM)
- ├─ Storage (Disk)
- └─ I/O Devices
-        ↑
-[ Operating System (Kernel) ]
-        ↑    ← (System Call)
-[ User Space Programs ]
-        ↑
 [ User (Human) ]
+        ↓
+[ User Space Programs ]
+  - Shell (bash, zsh)
+  - Applications (Java, Python, nginx, mysql)
+  - Libraries (glibc, libpthread)
+        ↓  ← System Call
+[ Kernel Space (Operating System Kernel) ]
+  - Process Scheduler
+  - Memory Manager
+  - File System
+  - Device Driver
+  - Network Stack
+        ↓
+[ Hardware ]
+  - CPU
+  - Memory (RAM)
+  - Storage(Disk)
+  - I/O Devices
 ```
-- 하드웨어는 직접 만질 수 없다
+- 하드웨어는 커널만 직접 만질 수 있고, 모든 유저 프로그램은 커널을 통해서만 하드웨어를 쓴다
 - CPU, Memory, Disk 는 아무 프로그램이나 직접 접근하면 시스템에 문제가 생길 수 있다
 - 그래서 중간 관리자 역할이 필요하고, 그것이 OS(Operating System)이다
 
